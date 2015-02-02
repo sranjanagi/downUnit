@@ -79,14 +79,7 @@ table, th, td {
                     <div class="content" id=
                     "experiment-article-section-1-content">
                         <div class="divContent">
-                            <h2 style="color: Red;"><strong style=
-                            "text-decoration: underline"><span style=
-                            "font-family: arial,helvetica,sans-serif; color: rgb(255, 0, 0);">
-                            <span style=
-                            "font-size: large;"></span></span></strong></h2>
-
-                            <p>&nbsp;</p>
-
+                           
                             <p class="MsoNormal" style=
                             "line-height: 150%; text-align: right;"><a href=
                             "http://coep.vlab.co.in/?sub=33&amp;brch=91"><span style="font-family: arial,helvetica,sans-serif; font-size: medium;">
@@ -448,8 +441,50 @@ Conduct a simulation experiment and determine the rate constant for the saponifi
 of ethyl acetate (A) with NaOH (B) in a batch reactor at a specified temperature. To
 study the effect of temperature on the rate constant. To determine the frequency factor
 and activation energy.</br></br>
-CH3COOC2H5 (A)+ NaOH (B)
-CH3COONa + C2H5OH. It is an elementary reaction</br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>C</mtext>
+  <msub>
+    <mtext>H</mtext>
+    <mn>3</mn>
+  </msub>
+  <mtext>COO</mtext>
+  <msub>
+    <mtext>C</mtext>
+    <mn>2</mn>
+  </msub>
+  <msub>
+    <mtext>H</mtext>
+    <mn>5</mn>
+  </msub>
+  <mo>(</mo>
+  <mtext>A</mtext>
+  <mo>)</mo>
+  <mo>+</mo>
+  <mtext>NaOH</mtext>
+  <mo>(</mo>
+  <mtext>B</mtext>
+  <mo>)</mo>
+  <mo>
+    &#x2192;
+    <!--rarr, RightArrow, ShortRightArrow, srarr, rightarrow-->
+  </mo>
+  <mtext>C</mtext>
+  <msub>
+    <mtext>H</mtext>
+    <mn>3</mn>
+  </msub>
+  <mtext>COONa</mtext>
+  <mo>+</mo>
+  <msub>
+    <mtext>C</mtext>
+    <mn>2</mn>
+  </msub>
+  <msub>
+    <mtext>H</mtext>
+    <mn>5</mn>
+  </msub>
+  <mtext>OH</mtext>
+</math>. It is an elementary reaction</br>
 
 Ethyl acetate is the limiting reactant</br></br>
 <b>Apparatus:</b>Measuring cylinders, stop watch</br></br>
@@ -467,24 +502,22 @@ Choose initial molar ratio of B to A (M) to be taken.
 Choose stock concentration of A and the stock concentration of B.
 Chose the reaction temperature.
 Now calculate the volume of stock solutions of B and A to be taken so as to
-maintain the chosen M and the total volume of the reactor.
+maintain the chosen M and the total volume of the reactor.<br>
 VA +VB = VT
-.. (1)
-VT is the total reactor volume
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>M</mi><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>A</mi></msub><mo>)</mo></math> = moles of B/ moles of A
+.. (1)<br>
+VT is the total reactor volume<br>
+<math xmlns="http://www.w3.org/1998/Math/MathML"><mi>M</mi><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>A</mi></msub><mo>)</mo></math> = moles of B/ moles of A<br>
 VB/VA =
 ..
-.(2)
+.(2)<br>
 From Eq (1) and (2) ,
-VA =
-mL , VB=
-mL
+VA =......mL , VB=......mL<br>
 Where
-solutions
-CAS
+
+
 VA and VB are the the volumes of ethyl acetate and NaOH stock
-to be added to the reactor.
-and CBS are the concentrations of stock solutions of A and B.</li>
+to be added to the reactor.<br>
+Cas and Cbs are the concentrations of stock solutions of A and B.</li>
 
   <li>Add the calculated volume of NaOH into the reactor. Start the stirrer.
 Switch on the conductivity meter.</li>
@@ -525,12 +558,12 @@ A -> ethyl acetate</br>
 B -> NaOH</br>
 
 Concentration of NaOH in the stock solution= gmol/L</br>
-Concentration of ethyl acetate in the stock solution=gmol/L</br>
+Concentration of ethyl acetate in the stock solution=gmol/L</br><br>
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>M</mi><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>A</mi></msub><mo>)</mo></math> = moles of B/ moles of A</br>
-Initial concentration of A in the reaction mixture,<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>A</mi><mn>0</mn></mrow></msub><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>A</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mi>A</mi></msub><mo>+</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo></math>=gmol/L</br>
+Initial concentration of A in the reaction mixture,<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>A</mi><mn>0</mn></mrow></msub><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>A</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mi>A</mi></msub><mo>+</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo></math>=.....gmol/L</br>
 
-Initial concentration of B in the reaction mixture <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>B</mi><mn>0</mn></mrow></msub><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mi>A</mi></msub><mo>+</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo></math>=gmol/L</br>
+Initial concentration of B in the reaction mixture <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>B</mi><mn>0</mn></mrow></msub><mo>=</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub><mo>*</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo><mo>/</mo><mo>(</mo><msub><mi>C</mi><mi>A</mi></msub><mo>+</mo><msub><mi>V</mi><mi>B</mi></msub><mo>)</mo></math>=.....gmol/L</br>
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>A</mi><mi>S</mi></mrow></msub></math>and <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mrow><mi>B</mi><mi>S</mi></mrow></msub></math> are the concentrations of stock solutions of A and B.</br></br>
 </div>
@@ -582,7 +615,8 @@ CB =0.00026 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>Y</mi><mn
 Where,
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>B</mi></msub></math>= Concentration of NaOH at time t</br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>Y</mi><mn>28</mn></msub></math> = Conductivity meter reading for solution at time t, corrected for <math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mn>28</mn><mn>0</mn></msup><mi>c</mi></math></br>
-Concentration of ethyl acetate in the reaction mixture, <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>A</mi></msub></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>A</mi></msub><mo>=</mo><msub><mi>C</mi><mrow><mi>A</mi><mn>0</mn></mrow></msub><mo>-</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mn>0</mn></mrow></msub><mo>-</mo><msub><mi>C</mi><mi>B</mi></msub><mo>)</mo></math>=gm
+Concentration of ethyl acetate in the reaction mixture,<br>
+ <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>A</mi></msub></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>A</mi></msub><mo>=</mo><msub><mi>C</mi><mrow><mi>A</mi><mn>0</mn></mrow></msub><mo>-</mo><mo>(</mo><msub><mi>C</mi><mrow><mi>B</mi><mn>0</mn></mrow></msub><mo>-</mo><msub><mi>C</mi><mi>B</mi></msub><mo>)</mo></math>=gm
 ol/L</br>
 
 Conversion of EA,</br>
@@ -726,7 +760,7 @@ In a batch reactor an; irreversible first order reaction A  R takes place. Th
                     <INPUT TYPE=radio NAME=q1 VALUE=i checked="">
                     &nbsp; <B>(a)</B>Yes<BR>
                     <INPUT TYPE=radio NAME=q1 VALUE=j>
-                    &nbsp; <B>(b)</B> 		No<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; 
+                    &nbsp; <B>(b)</B> 		No<br>
 </LI>
 
 
@@ -755,27 +789,7 @@ In a batch reactor an; irreversible first order reaction A  R takes place. Th
                     "experiment-article-section-7-content">
                         <div class="divContent">
                            
-                           
-                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]-->
-
-
-                            <p>&nbsp;</p>
-
-                           
-
-                            <p>&nbsp;<p>
-	
-
+                         
 <!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
 
 <span class="avPlayerContainer">
@@ -873,324 +887,6 @@ mso-bidi-theme-font:minor-bidi;}
 
                         
 
-                            <h3><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;w:View&gt;Normal&lt;/w:View&gt;
-&lt;w:Zoom&gt;0&lt;/w:Zoom&gt;
-&lt;w:TrackMoves /&gt;
-&lt;w:TrackFormatting /&gt;
-&lt;w:PunctuationKerning /&gt;
-&lt;w:ValidateAgainstSchemas /&gt;
-&lt;w:SaveIfXMLInvalid&gt;false&lt;/w:SaveIfXMLInvalid&gt;
-&lt;w:IgnoreMixedContent&gt;false&lt;/w:IgnoreMixedContent&gt;
-&lt;w:AlwaysShowPlaceholderText&gt;false&lt;/w:AlwaysShowPlaceholderText&gt;
-&lt;w:DoNotPromoteQF /&gt;
-&lt;w:LidThemeOther&gt;EN-US&lt;/w:LidThemeOther&gt;
-&lt;w:LidThemeAsian&gt;X-NONE&lt;/w:LidThemeAsian&gt;
-&lt;w:LidThemeComplexScript&gt;X-NONE&lt;/w:LidThemeComplexScript&gt;
-&lt;w:Compatibility&gt;
-&lt;w:BreakWrappedTables /&gt;
-&lt;w:SnapToGridInCell /&gt;
-&lt;w:WrapTextWithPunct /&gt;
-&lt;w:UseAsianBreakRules /&gt;
-&lt;w:DontGrowAutofit /&gt;
-&lt;w:SplitPgBreakAndParaMark /&gt;
-&lt;w:DontVertAlignCellWithSp /&gt;
-&lt;w:DontBreakConstrainedForcedTables /&gt;
-&lt;w:DontVertAlignInTxbx /&gt;
-&lt;w:Word11KerningPairs /&gt;
-&lt;w:CachedColBalance /&gt;
-&lt;/w:Compatibility&gt;
-&lt;w:BrowserLevel&gt;MicrosoftInternetExplorer4&lt;/w:BrowserLevel&gt;
-&lt;m:mathPr&gt;
-&lt;m:mathFont m:val="Cambria Math" /&gt;
-&lt;m:brkBin m:val="before" /&gt;
-&lt;m:brkBinSub m:val="&#45;-" /&gt;
-&lt;m:smallFrac m:val="off" /&gt;
-&lt;m:dispDef /&gt;
-&lt;m:lMargin m:val="0" /&gt;
-&lt;m:rMargin m:val="0" /&gt;
-&lt;m:defJc m:val="centerGroup" /&gt;
-&lt;m:wrapIndent m:val="1440" /&gt;
-&lt;m:intLim m:val="subSup" /&gt;
-&lt;m:naryLim m:val="undOvr" /&gt;
-&lt;/m:mathPr&gt;&lt;/w:WordDocument&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true"
-DefSemiHidden="true" DefQFormat="false" DefPriority="99"
-LatentStyleCount="267"&gt;
-&lt;w:LsdException Locked="false" Priority="0" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Normal" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="heading 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" /&gt;
-&lt;w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 7" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 8" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" Name="toc 9" /&gt;
-&lt;w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" /&gt;
-&lt;w:LsdException Locked="false" Priority="10" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Title" /&gt;
-&lt;w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" /&gt;
-&lt;w:LsdException Locked="false" Priority="11" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtitle" /&gt;
-&lt;w:LsdException Locked="false" Priority="0" Name="Hyperlink" /&gt;
-&lt;w:LsdException Locked="false" Priority="22" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Strong" /&gt;
-&lt;w:LsdException Locked="false" Priority="20" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="59" SemiHidden="false"
-UnhideWhenUsed="false" Name="Table Grid" /&gt;
-&lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" /&gt;
-&lt;w:LsdException Locked="false" Priority="1" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="No Spacing" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" /&gt;
-&lt;w:LsdException Locked="false" Priority="34" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" /&gt;
-&lt;w:LsdException Locked="false" Priority="29" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Quote" /&gt;
-&lt;w:LsdException Locked="false" Priority="30" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 1" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 2" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 3" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 4" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 5" /&gt;
-&lt;w:LsdException Locked="false" Priority="60" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Shading Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="61" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="62" SemiHidden="false"
-UnhideWhenUsed="false" Name="Light Grid Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="63" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="64" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="65" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="66" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium List 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="67" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="68" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="69" SemiHidden="false"
-UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="70" SemiHidden="false"
-UnhideWhenUsed="false" Name="Dark List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="71" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Shading Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="72" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful List Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="73" SemiHidden="false"
-UnhideWhenUsed="false" Name="Colorful Grid Accent 6" /&gt;
-&lt;w:LsdException Locked="false" Priority="19" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="21" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" /&gt;
-&lt;w:LsdException Locked="false" Priority="31" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" /&gt;
-&lt;w:LsdException Locked="false" Priority="32" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" /&gt;
-&lt;w:LsdException Locked="false" Priority="33" SemiHidden="false"
-UnhideWhenUsed="false" QFormat="true" Name="Book Title" /&gt;
-&lt;w:LsdException Locked="false" Priority="37" Name="Bibliography" /&gt;
-&lt;w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" /&gt;
-&lt;/w:LatentStyles&gt;
-&lt;/xml&gt;&lt;![endif]--><!--[if gte mso 10]&gt;
-&lt;style&gt;
-/* Style Definitions */
-table.MsoNormalTable
-{mso-style-name:"Table Normal";
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-style-noshow:yes;
-mso-style-priority:99;
-mso-style-qformat:yes;
-mso-style-parent:"";
-mso-padding-alt:0in 5.4pt 0in 5.4pt;
-mso-para-margin:0in;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-size:10.0pt;
-font-family:"Times New Roman","serif";}
-&lt;/style&gt;
-&lt;![endif]--></h3>
 
                             <h3><!--[if gte mso 9]&gt;&lt;xml&gt;
 &lt;w:WordDocument&gt;
@@ -1513,8 +1209,7 @@ font-family:"Times New Roman","serif";}
 
                            
 
-                            <h2><span style=
-                            "color: rgb(51, 102, 255);">&nbsp;</span></h2>
+                           
                             <meta content="text/html; charset=utf-8"
                             http-equiv="Content-Type">
                             <meta content="Word.Document" name="ProgId">
@@ -1802,8 +1497,7 @@ font-family:"Times New Roman","serif";}
 "background: none repeat scroll 0% 0% yellow;"><span style="color: rgb(51, 102, 255);">
                             <br></span></span>
 
-                            <h2><span style="color: rgb(51, 102, 255);">
-                            <!--[if !supportLists]--></span></h2>
+                           
 
                             <p>&nbsp; Chemical Reaction Engineering (3rd Edition), Octave Levenspiel, 1999, John Wiley & Sons<br><br> 
 Elements of Chemical Reaction Engineering (4th Edition), H. Scott Fogler, 2005, Prentice Hall 

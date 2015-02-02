@@ -430,15 +430,15 @@ Procedure:</br>
 3.Fill the reservoirs with NaOH and ethyl acetate stock solutions</br>
 4.Measure the volume of the reactor.</br>
 5.Switch on the pump and allow ethyl acetate to flow into the reactor at certain
-flowrate and measure the flowrate(VA) using rotameter.</br>
+flowrate and measure the flowrate(<img src="../images/equations/eq8.PNG" style="width:40px;height:15px;">) using rotameter.</br>
 
 
 
 
 6. Set the required temperature to be maintained in the reactor.Switch on the
 heater to heat the reactor contents to the required temperature .</br>
-7. Calculate the flowrate of NaOH(VB) required to keep the desired value of
-M(M=CBo/CAo). M may be greater than or equal to one. Calculate the total
+7. Calculate the flowrate of NaOH(<img src="../images/equations/eq9.PNG" style="width:40px;height:20px;">) required to keep the desired value of
+<img src="../images/equations/eq10.PNG" style="width:140px;height:30px;">. M may be greater than or equal to one. Calculate the total
 flowrate (Q).</br>
 8. Adjust the flowrate of NaOH to the calculated value, without changing the
 EA flowrate.</br>
@@ -458,74 +458,82 @@ using the conductivity meter calibration equation.</br>
 Observations and calculations:
 Aà Ethyl acetate
 B àNaOH
-Strength of Ethyl acetate in stock = CAS = ------------------------ gmol/L</br></br>
-Strength of NaOH in stock solution=CBS= ------------------------ gmol/L</br></br>
+Strength of Ethyl acetate in stock = <img src="../images/equations/eq11.PNG" style="width:45px;height:20px;"> = ------------------------ gmol/L</br></br>
+Strength of NaOH in stock solution=<img src="../images/equations/eq12.PNG" style="width:45px;height:20px;">= ------------------------ gmol/L</br></br>
 Diameter of the reaction vessel, d = -----------------------cm</br></br>
 Height of the vessel upto reactor outlet, h = -----------------------cm</br></br>
-V = volume of teh reactor= d2h/4 =
+V = volume of teh reactor=<img src="../images/equations/eq13.PNG" style="width:65px;height:30px;">=
 = -----------------------cm3</br>
+=     L<br>
 
 <img  src= "../images/prmf1.png" style="width:589px;height:158px"></br></br>
 
 <img  src= "../images/prmf2.png" style="width:964px;height:200px"></br></br>
-Calculations:
-Ethyl acetate flow rate = VA = ------------------------------LPH</br>
+<b>Calculations:</b><br>
+Ethyl acetate flow rate = <img src="../images/equations/eq8.PNG" style="width:45px;height:20px;">= ------------------------------LPH</br>
 VB/VA = M(CAS/CBS)
-Flow rate of NaOH required to keep the desired M , VB = M*VA(CAS/CBS)</br>
+Flow rate of NaOH required to keep the desired M ,<img src="../images/equations/eq15.PNG" style="width:150px;height:35px;"></br>
 Flow rate of NaOH set, =
 LPH
 Total flow rate Q= VA+VB =
 Space time , = V/Q =
 min
-Actual value of M(obtained in the experiment) = VB*CBS/VA*CAS</br>
+Actual value of M(obtained in the experiment) = <img src="../images/equations/eq16.PNG" style="width:155px;height:40px;"></br>
 =
 Initial concentartion of ethyl acetate in the feed mixture,</br>
-CAo= (VA*CAS)/Q
+ <img src="../images/equations/eq17.PNG" style="width:150px;height:35px;"></br>
 CAo = --------------------gmol/L</br>
 Concentartion of NaOH in the feed mixture,</br>
 CBO = (VB*CBS)/Q
 CBO = --------------------gmol/L</br>
 As the conductivity meter calibration is available only at 280C, the conductivity</br>
 meter reading obtained at a given temperature of reaction is to be corrected for 280C.</br>
-Temperature compensation for conductivity meter
-YT = Y28 / (1+0.0145(T-28))
+Temperature compensation for conductivity meter</br>
+
+ <img src="../images/equations/eq19.PNG" style="width:180px;height:35px;"></br>
 Where ,</br>
 YT =conductivity meter reading at any temperature T in mS/cm</br>
-Y28 = conductivity meter reading at a temperature of 280C in mS/cm</br>
-Obtain Y28 corresponding to measured conductivity meter reading ( YT) using the
+
+ <img src="../images/equations/eq24.PNG" style="width:35px;height:20px;">= conductivity meter reading at a temperature of 280C in mS/cm</br>
+Obtain 
+ <img src="../images/equations/eq24.PNG" style="width:35px;height:20px;"> corresponding to measured conductivity meter reading ( YT) using the
 equation above.</br>
 Conductivity meter is calibrated for concentrations of NaOH in the reaction mixture at a
 temperature of 280C.
 Obtain the Concentration of NaOH at 280C using the calibration equation given below</br>
 Conductivitymeter calibration equation for 280C.</br>
-CB =0.00026 Y28 -0.000063
-Where,
-CB= Concentration of NaOH in the reaction mixture at steady state
+
+ <img src="../images/equations/eq20.PNG" style="width:185px;height:40px;"><br>
+Where,<br>
+
+ <img src="../images/equations/eq25.PNG" style="width:27px;height:20px;">= Concentration of NaOH in the reaction mixture at steady state
 Y28 = Conductivity meter reading for solution, corrected for 280C
 Concentartion of unreacted NaOH in the reaction mixture at steady state,
 CB=
 gmol/L (obtained from the conductivity meter calibration
 graph)</br>
 Concentartion of ethyl acetate in the reaction mixture at steady state,</br></br>
-CA = CAo - CBo+ CB</br>
-CA
-Conversion of ethyl acetate, XA = 1
-= --------------------gmol/L
-(CA/ CAo)=
-Performance equation for MFR with rate equation of the form rA = kCACB
+
+ <img src="../images/equations/eq21.PNG" style="width:167px;height:30px;"></br>
+
+ <img src="../images/equations/eq26.PNG" style="width:40px;height:20px;">= --------------------gmol/L<br>
+Conversion of ethyl acetate,  <img src="../images/equations/eq22.PNG" style="width:150px;height:35px;"><br>
+
+
+Performance equation for MFR with rate equation of the form  <img src="../images/equations/eq23.PNG" style="width:140px;height:30px;"><br>
 can be written as
 =
 (
 )
 (B)
-for MFR
+for MFR<br>
 Plotting
 (
 )
 vs
 yields a straightline passing through origin. The
 slope=k . The equation holds good for M=1 or greater than 1.
-Plot a graph of ns=
+Plot a graph of ns  = 
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mfrac>
     <msub>
@@ -663,12 +671,12 @@ The frequency factor (ko)=
 <p>	
 
 
-  <OL><LI> What are the units of a homogeneous chemical reaction rate?
+  <OL><LI> In a continuous flow stirred tank reactor, the concentration of the exit stream
 <BR>
                     <INPUT TYPE=radio NAME=q1 VALUE=a >
-                    &nbsp; <B>(a)</B>moles/volume/time<BR>
+                    &nbsp; <B>(a)</B>is same as that in the reactor.<BR>
                     <input type="radio" name="vehicle4" value="Car4" checked>
-                    &nbsp; <B>(b)</B>moles/time<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>volume/mole/time	<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> time-1 <BR> 
+                    &nbsp; <B>(b)</B>is different than that in the reactor<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>depends upon the flow rate of inlet stream	<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> time-1 <BR> 
 </LI><BR>
 <LI>For the gaseous reaction 2A  B where the feed consist of 50 mol% A and 50 mol% inert, the expansion factor is,
 <BR>
@@ -733,25 +741,12 @@ For hydraulically smooth pipe, the resistance to flow depends only on the<BR>
                     <div class="content" id=
                     "experiment-article-section-7-content">
                         <div class="divContent">
-                           
-                            <h2>&nbsp;</h2>
+                        
 
                         
-                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]-->
-
+                          
                            
 
-                            <p>&nbsp;<p>
 	
 
 <!-- JoomlaWorks "AllVideos" Plugin (v3.1) starts here -->
@@ -866,39 +861,15 @@ font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]-->
 
-                            <p class="PreformattedText">&nbsp;</p>
-
-                            <p class="PreformattedText">&nbsp;</p>
+                          
                             <!--[if gte mso 9]&gt;&lt;xml&gt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]-->
 
-                            <p class="MsoNormal">
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-mso-para-margin-right:0in;
-mso-para-margin-bottom:10.0pt;
-mso-para-margin-left:0in;
-line-height:115%;
-mso-pagination:widow-orphan;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]--></p>
+                         
 
                            
-                            <p class="MsoNormal" style="line-height: normal;">
-                            <span style=
-                            'font-size: 12pt; font-family: "Arial","sans-serif";'>
-                            &nbsp;</span></p>
-
                            
                           
                           

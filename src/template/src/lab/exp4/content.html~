@@ -79,7 +79,6 @@ edit -->
 
                           
 
-                            <p style="margin-bottom: 0cm;">&nbsp;</p>
 
                             <p><span style=
                             "font-family: arial,helvetica,sans-serif; font-size: medium; color: rgb(0, 0, 0);">
@@ -200,8 +199,11 @@ and point 2 respectively and ρ is the density of fluid.</br></br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msub><mi>P</mi><mn>1</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo><mo>+</mo><mo>(</mo><msup><msub><mi>v</mi><mn>1</mn></msub><mn>2</mn></msup><mo>/</mo><mn>2</mn><mi>g</mi><mo>)</mo><mo>=</mo><mo>(</mo><msub><mi>P</mi><mn>2</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo><mo>+</mo><mo>(</mo><msup><msub><mi>v</mi><mn>2</mn></msub><mn>2</mn></msup><mo>/</mo><mn>2</mn><mi>g</mi><mo>)</mo><mo>+</mo><msub><mi>z</mi><mrow/></msub></math></br></br>
 Since <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>z</mi><mn>1</mn></msub><mo>=</mo><msub><mi>z</mi><mn>2</mn></msub></math></br></br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msup><msub><mi>v</mi><mn>2</mn></msub><mn>2</mn></msup><mo>/</mo><mn>2</mn><mi>g</mi><mo>)</mo><mo>-</mo><mo>(</mo><msup><msub><mi>v</mi><mn>1</mn></msub><mn>2</mn></msup><mo>/</mo><mn>2</mn><mi>g</mi><mo>)</mo><mo>=</mo><mo>(</mo><msub><mi>P</mi><mn>1</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo><mo>-</mo><mo>(</mo><msub><mi>P</mi><mn>2</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo></math></br></br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><mo>(</mo><msup><msub><mi>v</mi><mn>2</mn></msub><mn>2</mn></msup><mo>-</mo><msub><mi>v</mi><mn>1</mn></msub><mo>)</mo><mo>/</mo><mn>2</mn><mi>g</mi><mo>=</mo><mo>(</mo><msub><mi>P</mi><mn>1</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo><mo>-</mo><mo>(</mo><msub><mi>P</mi><mn>2</mn></msub><mo>/</mo><mi>&#961;</mi><mi>g</mi><mo>)</mo></math>
-------- (1)</br></br>
+</br>
+
+
+<img  src="../images/equations/eq5.PNG" style="width:223px;height:68px">------(1)</br></br>
+
 Now applying the equation of continuity at both points, we have</br></br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>A</mi><mn>1</mn></msub><msub><mi>v</mi><mn>1</mn></msub><mo>=</mo><msub><mi>A</mi><mn>2</mn></msub><msub><mi>v</mi><mn>1</mn></msub></math> ------------(2)</br></br>
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>v</mi><mn>2</mn></msub><mo>=</mo><mo>(</mo><msub><mi>A</mi><mn>1</mn></msub><mo>&#215;</mo><msub><mi>v</mi><mn>1</mn></msub><mo>)</mo><mo>/</mo><msub><mi>A</mi><mn>2</mn></msub></math> --------(3)</br></br>
@@ -211,7 +213,7 @@ where d1 and d2 are the diameters at point 1(pipe) and at point 2(throat) respec
 Now putting the value of V2 in the above expression (1) and if <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>&#946;</mi><mo>=</mo><msub><mi>d</mi><mn>2</mn></msub><mo>/</mo><msub><mi>d</mi><mn>1</mn></msub></math>, we have</br></br>
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>v</mi><mn>2</mn></msub><mo>=</mo><msqrt><mfrac><mrow><mn>2</mn><mo>(</mo><msub><mi>F</mi><mn>1</mn></msub><mo>-</mo><msub><mi>F</mi><mn>2</mn></msub><mo>)</mo></mrow><mrow><mi>&#961;</mi><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>&#946;</mi><mn>4</mn></msup><mo>)</mo></mrow></mfrac></msqrt></math> &nbsp;&nbsp;&nbsp;&nbsp; -------- (5)</br></br>
-<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>A</mi><mn>2</mn></msub><mo>.</mo><msub><mi>v</mi><mn>2</mn></msub></math> -----------(6)</br></br>
+Q=<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>A</mi><mn>2</mn></msub><mo>.</mo><msub><mi>v</mi><mn>2</mn></msub></math> -----------(6)</br></br>
 
 <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>Q</mi><mi>t</mi><mi>h</mi><mo>=</mo><msub><mi>A</mi><mn>2</mn></msub><msqrt><mfrac><mrow><mn>2</mn><mo>(</mo><msub><mi>F</mi><mn>1</mn></msub><mo>-</mo><msub><mi>F</mi><mn>2</mn></msub><mo>)</mo></mrow><mrow><mi>&#961;</mi><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>&#946;</mi><mn>4</mn></msup><mo>)</mo></mrow></mfrac></msqrt></math>&nbsp;&nbsp;&nbsp;&nbsp; -------- (6)</br></br>
 Qth is the theoretical flow rate as computed from Eq.(6) and applies to frictionless flow of
@@ -326,18 +328,50 @@ Venturimeter
 To calibrate venturimeter with different β* ratios. Determine the flow head relationship for this
 flow meter.Determine the effect of Reynolds number on the coefficient of discharge (<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>D</mi></msub></math>).</br>
 *β is the ratio of throat diameter to pipe diameter</br>
-Apparatus required: CCl4 manometer, Hg manometer</br></br>
+Apparatus required: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math>  manometer</br></br>
 <b>Procedure:</b></br>
  <ul>
   <li>Keep the bypass valve completely open and the main valve completely closed. Switch on
 the pump.</li>
-  <li>Connect a CCl4 manometer across the venturi.</li>
+  <li>Connect a<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math> manometer across the venturi.</li>
   <li>Open the main valve and set a flow rate of water using the rotameter.</li>
   <li>Note down the rotameter reading and manometer reading after a steady state is attained.</li>
   <li>Increase the flow rate by opening the main valve and throttling the bypass valve suitably
 and repeat step 4.</li>
   <li>Use mercury manometer for higher flow rates.</li>
-  <li>Take readings with CCl4 manometer as well as with Hg manometer.</li>
+  <li>Take readings with <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math> manometer as well as with<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math> manometer.</li>
   <li>Repeat the experiment with different β ratios and with different fluids.</li>
   
 </ul> </br>
@@ -345,7 +379,8 @@ and repeat step 4.</li>
 
 Diameter of the pipe = d = cm</br>
 Diameter of the venture throat= <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>D</mi><mi>t</mi></msub></math> = cm</br>
-Density of CCl4 =<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#961;</mi><mrow><mi>C</mi><mi>C</mi><msub><mi>l</mi><mn>4</mn></msub></mrow></msub><mo>=</mo><mi>K</mi><mi>g</mi><mo>/</mo><msup><mi>m</mi><mn>3</mn></msup></math></br>
+Density of 
+<img  src="../images/equations/eq6.PNG" style="width:153px;height:68px"></br></br> =<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#961;</mi><mrow><mi>C</mi><mi>C</mi><msub><mi>l</mi><mn>4</mn></msub></mrow></msub><mo>=</mo><mi>K</mi><mi>g</mi><mo>/</mo><msup><mi>m</mi><mn>3</mn></msup></math></br>
 Density of Hg = <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>&#961;</mi><mrow><mi>H</mi><mi>g</mi></mrow></msub></math> = <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>K</mi><mi>g</mi><mo>/</mo><msup><mi>m</mi><mn>3</mn></msup></math></br>
 Density of fluid = ρ = <math xmlns="http://www.w3.org/1998/Math/MathML"><mi>K</mi><mi>g</mi><mo>/</mo><msup><mi>m</mi><mn>3</mn></msup></math></br>
 Viscosity of fluid = μ = cp </br></br>
@@ -455,7 +490,7 @@ Which one of the following is a variable area meter?
                     <INPUT TYPE=radio NAME=q1 VALUE=a >
                     &nbsp; <B>(a)</B>		venturimeter<BR>
                     <input type="radio" name="vehicle18" value="Car18" >
-                    &nbsp; <B>(b)</B>		orificemeter<br><INPUT TYPE=radio NAME=q1 VALUE=b checked>&nbsp; <B>(c)</B> 		Rotameter<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		Pitot tube<BR> 
+                    &nbsp; <B>(b)</B>		orificemeter<br><INPUT TYPE=radio NAME="aewr" VALUE="sdb" checked>&nbsp; <B>(c)</B> 		Rotameter<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		Pitot tube<BR> 
 </LI><BR>
 <LI> 	
 
@@ -525,25 +560,7 @@ Venturimeter can be used for measuring the flow rate of<BR>
                     "experiment-article-section-7-content">
                         <div class="divContent">
                             
-                            <h2>&nbsp;</h2>
-
-                           
-
-                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]-->
-
-                           
-
-                            <p>&nbsp;</p>
+                          
 
                            <p>
 	

@@ -185,7 +185,7 @@ flow passes through the hole with the sharp edge of the orifice pointing to the
 upstream. The relationship between flow rate and pressure drop can be determined
 using Bernoulli’s equation as:</br></br>
 
-EQUATIONS: Q=<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>d</mi></msub><msub><mi>A</mi><mi>o</mi></msub><msqrt><mfrac><mrow><mn>2</mn><mo>(</mo><mi>p</mi><mn>1</mn><mo>-</mo><mi>p</mi><mn>2</mn><mo>)</mo></mrow><msqrt><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>&#946;</mi><mn>4</mn></msup><mo>)</mo></msqrt></mfrac></msqrt></math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</br>
+ Q=<math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>d</mi></msub><msub><mi>A</mi><mi>o</mi></msub><msqrt><mfrac><mrow><mn>2</mn><mo>(</mo><mi>p</mi><mn>1</mn><mo>-</mo><mi>p</mi><mn>2</mn><mo>)</mo></mrow><msqrt><mo>(</mo><mn>1</mn><mo>-</mo><msup><mi>&#946;</mi><mn>4</mn></msup><mo>)</mo></msqrt></mfrac></msqrt></math>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1)</br>
 
 where, Q is the volumetric flow rate, Ao is the orifice cross sectional area, p1 and
 p2 are the pressure measured at the upstream and downstream and <math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mi>C</mi><mi>d</mi></msub></math> is the
@@ -365,20 +365,42 @@ To calibrate orificemeter with different β* ratios. Determine the flow head rel
 flow meter and determine the effect of Reynolds number on the coefficient of discharge (C d)
 with different β ratios.
 *β is the ratio of orifice diameter to pipe diameter
-Apparatus required: CCl4 manometer, Hg manometer
+Apparatus required: <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer, <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math> manometer
 </div>
 <div style="text-indent: 30px;">
 <b>Procedure:</b>
  <ul>
   <li>Keep the bypass valve completely open and the main valve completely closed. Switch on
 the pump.</li>
-  <li>Connect a CCl4 manometer across the orifice.</li>
+  <li>Connect a <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer across the orifice.</li>
   <li>Open the main valve and set a flow rate of water using the Rotameter.</li>
   <li>Note down the Rotameter reading and manometer reading after a steady state is attained.</li>
   <li>Increase the flow rate by opening the main valve and throttling the bypass valve suitably
 and repeat step 4.</li>
   <li>Use mercury manometer for higher flow rates.</li>
-  <li> Take readings with CCl4 manometer as well as with Hg manometer.</li>
+  <li> Take readings with <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>CCL</mtext>
+    <mn>4</mn>
+  </msub></math> manometer as well as with <math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>H</mtext>
+    <mi>g</mi>
+  </msub>
+</math> manometer.</li>
   <li>Repeat the experiment with different β ratios and with different fluids.</li>
   
  </ul> 
@@ -532,10 +554,10 @@ The pressure drop across the orifice   ---------------------when the rate of flo
 Orificemeter can be used for measuring the flow rate of
 
 <BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=i checked="">
+                    <INPUT TYPE=radio NAME=q1 VALUE=i >
                     &nbsp; <B>(a)</B> 		liquid only<BR>
                     <INPUT TYPE=radio NAME=q1 VALUE=j>
-                    &nbsp; <B>(b)</B> 		gasses only. <br><INPUT TYPE=radio NAME=q1 VALUE=b checked>&nbsp; <B>(c)</B> both for liquids and gases<BR>
+                    &nbsp; <B>(b)</B> 		gasses only. <br><INPUT TYPE=radio NAME="wk" VALUE="sjhb" checked>&nbsp; <B>(c)</B> both for liquids and gases<BR>
 </LI>
 
 
@@ -569,21 +591,6 @@ Orificemeter can be used for measuring the flow rate of
                         
 
                           
-                            <p>&nbsp;</p><!--[if gte mso 9]&gt;&lt;xml&gt;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]-->
-
-                          
-
-                            <p>&nbsp;</p>
 
                            <p>
 	
@@ -675,51 +682,15 @@ mso-bidi-theme-font:minor-bidi;}
                     <div class="content" id=
                     "experiment-article-section-8-content">
                         <div class="divContent">
-                            <p><!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-&lt;w:View&gt;Normal&lt;/w:View&gt;
-mso-tstyle-rowband-size:0;
-mso-tstyle-colband-size:0;
-mso-style-noshow:yes;
-mso-style-priority:99;
-mso-style-qformat:yes;
-mso-style-parent:"";
-mso-padding-alt:0in 5.4pt 0in 5.4pt;
-mso-para-margin:0in;
-mso-para-margin-bottom:.0001pt;
-mso-pagination:widow-orphan;
-font-size:10.0pt;
+                           
+                         
+                           
+                            <!--[if gte mso 9]&gt;&lt;xml&gt;
 font-family:"Times New Roman","serif";}
 &lt;/style&gt;
 &lt;![endif]-->
 
                          
-                            <p class="PreformattedText">&nbsp;</p>
-
-                            <p class="PreformattedText">&nbsp;</p>
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-font-family:"Times New Roman","serif";}
-&lt;/style&gt;
-&lt;![endif]-->
-
-                            <p class="MsoNormal">
-                            <!--[if gte mso 9]&gt;&lt;xml&gt;
-&lt;w:WordDocument&gt;
-mso-para-margin-right:0in;
-mso-para-margin-bottom:10.0pt;
-mso-para-margin-left:0in;
-line-height:115%;
-mso-pagination:widow-orphan;
-font-size:11.0pt;
-font-family:"Calibri","sans-serif";
-mso-ascii-font-family:Calibri;
-mso-ascii-theme-font:minor-latin;
-mso-hansi-font-family:Calibri;
-mso-hansi-theme-font:minor-latin;
-mso-bidi-font-family:"Times New Roman";
-mso-bidi-theme-font:minor-bidi;}
-&lt;/style&gt;
-&lt;![endif]--></p>
 
                             <p>&nbsp; 1. Warren Lee McCabe, Julian Cleveland Smith, Peter Harriott ,Unit operation of chemical engineering , 5th Edition,1993
 2. Coulson and Richardson,Chemical Engineering Volume I  ELBS,Pargamon 3rd edition.1977
