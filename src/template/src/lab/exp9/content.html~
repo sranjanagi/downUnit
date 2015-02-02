@@ -91,7 +91,7 @@ table, th, td {
                             <p><span style=
                             "font-size: medium; font-family: arial,helvetica,sans-serif; color: rgb(0, 0, 0);">
                             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                           Assignment<br>
+                          <br>
 1. The following data are obtained in an ideal tubular flow reactor for the gaseous
 pyrolysis of acetone at 520oC and 1 atm. The reaction is CH3.CO.CH3 →
 CH2.CO + CH4
@@ -230,7 +230,7 @@ Steady state molar balance over small elemental volume ΔV yields<br>
 
 
 
-<img  src= "../images/equations/eq1.jpg" style="width:325px;height:122px"></br></br>
+<img  src= "../images/equations/eq1.jpg" style="width:195px;height:50px"></br></br>
 
 The conversion, XA, is defined as:<br>
 XA = (inlet concentration – outlet concentration) / (inlet concentration)
@@ -246,15 +246,15 @@ reactant B to A(M) in the inlet. Steady state concentration of A at the reactor 
 analyzed for each run.
 Now equation A after integration with for M>1 , can be written as
 
-<img  src= "../images/equations/eq2.jpg" style="width:325px;height:122px"></br></br>
+<img  src= "../images/equations/eq2.jpg" style="width:205px;height:52px"></br></br>
 
 Plotting
-<img  src= "../images/equations/eq2.jpg" style="width:428px;height:130px">
+<img  src= "../images/equations/eq2.jpg" style="width:228px;height:70px">
 vs t
 yields a straightline passing through origin if the
 assumed equation is correct. The slope=k.<br>
 For M=1, the performance equation is
-<img  src= "../images/equations/eq3.jpg" style="width:297px;height:115px"><br>
+<img  src= "../images/equations/eq3.jpg" style="width:197px;height:55px"><br>
 So the plot of
 vs
 yields a straightline passing through origin if the assumed equation is correct. The slope=k.
@@ -492,28 +492,107 @@ Where,<br>
 CB= Concentration of NaOH in the reaction mixture at steady state
 Y28 = Conductivity meter reading for solution, corrected for 280C<br>
 Concentartion of unreacted NaOH in the reaction mixture at steady state,<br>
-CB=
-gmol/L (obtained from the conductivity meter calibration
+CB=gmol/L (obtained from the conductivity meter calibration
 graph)
 Concentartion of ethyl acetate in the reaction mixture at steady state,
-CA = CAo - CBo+ CB<br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mtext>C</mtext>
+    <mtext>A</mtext>
+  </msub>
+  <mo>=</mo>
+  <msub>
+    <mtext>C</mtext>
+    <mtext>A0</mtext>
+  </msub>
+  <mo>-</mo>
+  <msub>
+    <mtext>C</mtext>
+    <mtext>B0</mtext>
+  </msub>
+  <mo>+</mo>
+  <msub>
+    <mtext>C</mtext>
+    <mtext>B</mtext>
+  </msub>
+</math><br>
 CA= --------------------gmol/L<br>
-Conversion of ethyl acetate, XA = 1<br>
-
-(CA/ CAo)=
+Conversion of ethyl acetate, XA = 1-(CA/ CAo)=<br>
 Performance equation for PFR with rate equation of the form rA = kCACB<br>
 for M>1 , can be written as<br>
 
-<img  src= "../images/equations/eq2.jpg" style="width:428px;height:130px"></br></br>
+<img  src= "../images/equations/eq2.jpg" style="width:228px;height:60px"></br></br>
 
 Plotting<br>
 
-<img  src= "../images/equations/eq4.jpg" style="width:357px;height:109px">
+<img  src= "../images/equations/eq4.jpg" style="width:230px;height:59px">
 vs Ca0t<br>
 yields a straightline passing through
 origin if the assumed rate equation is correct. The slope=k.<br>
-For M=1, the performance equation is
-So the plot of
+For M=1, the performance equation is <br><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mfrac>
+    <msub>
+      <mtext>X</mtext>
+      <mtext>A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+        <mtext>X</mtext>
+        <mtext>A</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mfrac>
+  <mtext>
+    &#xa0;&#xa0;
+    <!--NonBreakingSpace, nbsp-->
+  </mtext>
+  <mo>=</mo>
+  <mtext>
+    &#xa0;&#xa0;k
+    <!--NonBreakingSpace, nbsp-->
+  </mtext>
+  <msub>
+    <mtext>C</mtext>
+    <mtext>A0</mtext>
+  </msub>
+  <mtext>&#x3c4;</mtext>
+</math>
+
+
+
+So the plot of <br>
+<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mfrac>
+    <msub>
+      <mtext>X</mtext>
+      <mtext>A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>-</mo>
+      <msub>
+        <mtext>X</mtext>
+        <mtext>A</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mfrac>
+  <mtext>
+    &#xa0;&#xa0;vs&#xa0;&#xa0;
+    <!--NonBreakingSpace, nbsp-->
+  </mtext>
+  <msub>
+    <mtext>C</mtext>
+    <mtext>A0</mtext>
+  </msub>
+  <mtext>&#x3c4;</mtext>
+</math>
+
 vs
 yields a straight line passing through origin. The slope=k.<br>
 
@@ -602,15 +681,15 @@ The frequency factor (ko)=min-1(litre / gmol)<br>
 <BR>
                     <INPUT TYPE=radio NAME=q1 VALUE=a >
                     &nbsp; <B>(a)</B>axial diffusivity is infinite, radial diffusivity is zero<BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=b checked="">
-                    &nbsp; <B>(b)</B>axial diffusivity is zero, radial diffusivity is zero<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> axial diffusivity is zero, radial diffusivity is infinite<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> axial diffusivity is infinite, radial diffusivity is infinite<BR> 
+                    <input type="radio" name="vehicl" value="Ca" >
+                    &nbsp; <B>(b)</B>axial diffusivity is zero, radial diffusivity is zero<br><input type="radio" name="vehicle" value="Car" checked>&nbsp; <B>(c)</B> axial diffusivity is zero, radial diffusivity is infinite<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> axial diffusivity is infinite, radial diffusivity is infinite<BR> 
 </LI><BR>
 <LI>A “space time” of 5 minutes means
 <BR>
          	
-		         <INPUT TYPE=radio NAME=q1 VALUE=c checked="">
+		         <input type="radio" name="vehicle1" value="Car1" >
                     &nbsp; <B>(a)</B>100% conversion of the reactant is achieved in 5 minutes<BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=d >
+                    <INPUT TYPE=radio NAME="q1" VALUE="d" checked>
                     &nbsp; <B>(b)</B>One reactor volume of feed at specified conditions is processed in 5 minutes.	<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> 5% conversion is achieved in one minute	<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> none of these  
 </LI><BR><LI>
  	
@@ -619,17 +698,17 @@ For a tubular reactor with space time τ  and residence time τ  , the following
 <BR>
                     <INPUT TYPE=radio NAME=q1 VALUE=e >
                     &nbsp; <B>(a)</B>τ and θ always equal,<BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=f checked="">
-                    &nbsp; <B>(b)</B>τ = θ when the fluid density changes in the reactor<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> τ = θ for an isothermal tubular reactor in which the density of the process fluid is constan<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		τ = θ for a non-isothermal reactor
+                    <input type="radio" name="vehicle2" value="Car2" >
+                    &nbsp; <B>(b)</B>τ = θ when the fluid density changes in the reactor<br><INPUT TYPE=radio NAME="qs1" VALUE="sb" checked> &nbsp; <B>(c)</B> τ = θ for an isothermal tubular reactor in which the density of the process fluid is constan<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		τ = θ for a non-isothermal reactor
 </LI><BR><LI>
 
  	
 
 A homogeneous zero-order reaction is conducted in a PFR at 1000C and a reactor volume of V lit is required for realizing a specified conversion. If the same reaction is conducted at1100C, what will be the required reactor volume for the same conversion level as above under otherwise uniform conditions? The activation energy of the reaction is 84 KJ/mole.
 <BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=g checked="">
+                    <input type="radio" name="vehicle3" value="Car3" >
                     &nbsp; <B>(a)</B>V lit<BR>
-                    <INPUT TYPE=radio NAME=q1 VALUE=h >
+                    <input type="radio" name="q1s" value="hss" checked>
                     &nbsp; <B>(b)</B>V/2 lit<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> V/4 lit<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		V/6 lit.
 
 

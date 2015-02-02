@@ -110,8 +110,9 @@ edit -->
                         <div class="divQuiz">
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
-                                   
-        
+                                 
+
+
                                 </form><br>
                             </div><br>
                         </div>
@@ -295,12 +296,12 @@ orificemeter is poor.For a value of β equal to 0.5, the lost head is about 73% 
 orifice differential.</li>
 </ul>
 </br>
-<img src= "../images/fto5.png" style="width:667px;height:590px">
+<img src= "../images/fto5.png" style="width:567px;height:490px">
 
 </br></br>
 Comparison of permanent head loss caused by different head meters
 Orifice plates and flanges</br>
-<img src= "../images/fto6.png" style="width:667px;height:590px">
+<img src= "../images/fto6.png" style="width:567px;height:490px">
 
 
 
@@ -486,7 +487,64 @@ Plot log Q vs log <math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8710;</
                             <div id="displayQuiz">
                                 <form id="form11" method="post" name="form11">
                                  
-                                 
+                                 <p>	
+
+
+  <OL><LI> 	
+
+Coefficient of discharge for a given orifice is a function of ------------ and ---------------- for orificemeter
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=a >
+                    &nbsp; <B>(a)</B>		Orifice Reynolds number only<BR>
+                    <input type="radio" name="vehicle22" value="Car22" >
+                    &nbsp; <B>(b)</B>		β ratio only<br><INPUT TYPE=radio NAME="edw" VALUE="w" checked>&nbsp; <B>(c)</B>		Both Orifice Reynolds number and β ratio<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B> None of these<BR> 
+</LI><BR>
+<LI>Permanent pressure loss is --------------in the case venturimeter  as compared to of orificemeter
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=c >
+                    &nbsp; <B>(a)</B>		more<BR>
+                    <INPUT TYPE=radio NAME="dsw" VALUE="d" checked>
+                    &nbsp; <B>(b)</B>		less<br><input type="radio" name="vehicle23" value="Car23" >&nbsp; <B>(c)</B> 		equal<BR> 
+<input type="radio" name="vehicle23" value="Car23" >&nbsp; <B>(d)</B> 			cannot say<BR> 
+</LI><BR><LI> 	
+
+The pressure drop across the orifice   ---------------------when the rate of flow increases
+<BR>
+                    <INPUT TYPE=radio NAME="w" VALUE="e" checked>
+                    &nbsp; <B>(a)</B>		increases<BR>
+                    <input type="radio" name="vehicle25" value="Car25" >
+                    &nbsp; <B>(b)</B>		decreases<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> 		remain the same<BR>
+</LI><BR><LI>
+ 	
+
+4. Flange taps for the orifice meter are located at
+<BR>
+                    <input type="radio" name="vehicle24" value="Car24" checked>
+                    &nbsp; <B>(a)</B>		one inch from the upstream face of the orifice plate and one inch from the downstream face<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=h >
+                    &nbsp; <B>(b)</B>		2½ pipe diameters upstream and 8 pipe diameters downstream<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> immediately adjacent to the plate faces, upstream and downstream<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		One pipe diameter(D) on upstream side and D/2 on down stream side.
+
+
+</LI><BR>
+                  <LI>
+ 	
+
+Orificemeter can be used for measuring the flow rate of
+
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=i checked="">
+                    &nbsp; <B>(a)</B> 		liquid only<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=j>
+                    &nbsp; <B>(b)</B> 		gasses only. <br><INPUT TYPE=radio NAME=q1 VALUE=b checked>&nbsp; <B>(c)</B> both for liquids and gases<BR>
+</LI>
+
+
+
+</OL>
+   </p>    
+
+  
+        
                                     
                                 </form><br>
                             </div><br>

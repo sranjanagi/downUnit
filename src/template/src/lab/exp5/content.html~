@@ -80,22 +80,22 @@ edit -->
 
                             <p>&nbsp;1.
 Derive the Ergun’s equation for pressure drop in packed bed. What are the assumptions made?
-What are the limitations for the application of Ergun’s equation?
+What are the limitations for the application of Ergun’s equation?<br><br>
 2.
-Define sphericity, equivalent particle diameter and specific surface area.
+Define sphericity, equivalent particle diameter and specific surface area.<br><br>
 3.
 Packed bed is composed of cubes 0.02 m and the bulk density of the packed bed is 980
 kg/m
 3
-. The density of the solid cubes is 1500 kg/m
-3
-.
+. The density of the solid cubes is 1500 kg/m3.<br><br>
+
+
 a.) Calculate the void fraction (ε) and effective diameter (D
 p
-).
+).<br>
 b.) What is the void fraction if the cubes are replac
 ed with cylinders that have a diameter
-0.02 m and a height 0.02 m, all other parameters remaining the sam</p>
+0.02 m and a height 0.02 m, all other parameters remaining the same</p>
 
                             <p><!-- p { margin-bottom: 0.21cm; } --></p>
 
@@ -467,6 +467,61 @@ Comment on effect of superficial mass velocity on process drop across the bed an
                                 <form id="form11" method="post" name="form11">
                                  
                                  
+
+<p>	
+
+
+  <OL><LI> 	
+
+Pressure drop in packed bed ------------- with the increase in superficial velocity
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=a >
+                    &nbsp; <B>(a)</B>decreases<BR>
+                    <input type="radio" name="vehicle15" value="Car15" checked>
+                    &nbsp; <B>(b)</B>increases<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> 		no effect of superficial velocity on pressure drop<BR>  
+</LI><BR>
+<LI> 	
+
+For particle Reynolds number above 1000, for packed bed  --------------- forces control
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=c checked="">
+                    &nbsp; <B>(a)</B>		viscous<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=d >
+                    &nbsp; <B>(b)</B>		inertial<br>
+</LI><BR><LI>
+Under highly turbulent conditions , the modified friction factor for packed bed  approaches a value of
+<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=e >
+                    &nbsp; <B>(a)</B>150<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=f >
+                    &nbsp; <B>(b)</B>1<br><INPUT TYPE=radio NAME="DDW" VALUE="b" checked>&nbsp; <B>(c)</B> 		1.75<BR> <input type="radio" name="vehicle17" value="Car17" >&nbsp; <B>(d)</B>		5
+</LI><BR><LI>
+
+ 	
+
+Kozeny Carman equation is valid for -------- flow conditions in packedbed
+<BR>
+                    <input type="radio" name="vehicle18" value="Car18" checked>
+                    &nbsp; <B>(a)</B>laminar<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=h >
+                    &nbsp; <B>(b)</B>		turbulent<br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B>both laminar and turbulent<BR> .
+
+
+</LI><BR>
+                  <LI>
+Stokes’ law is valid (strictly theoretically) when particle Reynolds number is NRe,p is<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=i checked="">
+                    &nbsp; <B>(a)</B> much less than one<BR>
+                    <INPUT TYPE=radio NAME=q1 VALUE=j>
+                    &nbsp; <B>(b)</B>		equal to one. <br><INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(c)</B> 		much greater than one<BR> <INPUT TYPE=radio NAME=q1 VALUE=b>&nbsp; <B>(d)</B>		none of the foregoing.
+</LI>
+
+
+
+</OL>
+   </p>    
+
+
                                  
                                 </form><br>
                             </div><br>
